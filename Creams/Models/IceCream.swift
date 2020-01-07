@@ -6,12 +6,14 @@
 //  Copyright © 2020 Tobi Kuyoro. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct IceCream {
     let name: String
     let tagName: String
     let rating: Double
+    let backgroundColor: String
+    let labelColor: String
     let topping: Topping? = nil
     
     var price: Double {
