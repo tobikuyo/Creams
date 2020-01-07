@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-chocolate-ice-cream-ice-cream-cones-waffle-cones-5acffba2233f41.2467822415235798101444.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-chocolate-ice-cream-ice-cream-cones-waffle-cones-5acffba2233f41.2467822415235798101444@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-chocolate-ice-cream-ice-cream-cones-waffle-cones-5acffba2233f41.2467822415235798101444@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "IMGBIN_ice-cream-cones-pistachio-ice-cream-green-tea-ice-cream-mint-chocolate-chip-png_mErNkMZM.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "IMGBIN_ice-cream-cones-pistachio-ice-cream-green-tea-ice-cream-mint-chocolate-chip-png_mErNkMZM@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "IMGBIN_ice-cream-cones-pistachio-ice-cream-green-tea-ice-cream-mint-chocolate-chip-png_mErNkMZM@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

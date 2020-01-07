@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0BD3F823C3FE48008D96B1 /* Caudex-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BD3F423C3FE3B008D96B1 /* Caudex-Bold.ttf */; };
+		2C0BD3F923C3FE4D008D96B1 /* Caudex-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BD3F723C3FE3C008D96B1 /* Caudex-BoldItalic.ttf */; };
+		2C0BD3FA23C3FE50008D96B1 /* Caudex-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BD3F523C3FE3C008D96B1 /* Caudex-Italic.ttf */; };
+		2C0BD3FB23C3FE54008D96B1 /* Caudex-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BD3F623C3FE3C008D96B1 /* Caudex-Regular.ttf */; };
 		2CACC37F23C3AA660091B6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CACC37E23C3AA660091B6BE /* AppDelegate.swift */; };
 		2CACC38123C3AA660091B6BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CACC38023C3AA660091B6BE /* SceneDelegate.swift */; };
-		2CACC38323C3AA660091B6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CACC38223C3AA660091B6BE /* ViewController.swift */; };
 		2CACC38623C3AA660091B6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC38423C3AA660091B6BE /* Main.storyboard */; };
 		2CACC38823C3AA680091B6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC38723C3AA680091B6BE /* Assets.xcassets */; };
 		2CACC38B23C3AA680091B6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC38923C3AA680091B6BE /* LaunchScreen.storyboard */; };
+		2CACC39B23C3B5F60091B6BE /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC39A23C3B5F60091B6BE /* Titillium_Web */; };
+		2CACC39D23C3B7B70091B6BE /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC39C23C3B7B70091B6BE /* Poppins */; };
+		2CACC3A523C3D64F0091B6BE /* Play-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC3A423C3D6250091B6BE /* Play-Bold.ttf */; };
+		2CACC3A623C3D6530091B6BE /* Play-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC3A323C3D6240091B6BE /* Play-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0BD3F423C3FE3B008D96B1 /* Caudex-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caudex-Bold.ttf"; sourceTree = "<group>"; };
+		2C0BD3F523C3FE3C008D96B1 /* Caudex-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caudex-Italic.ttf"; sourceTree = "<group>"; };
+		2C0BD3F623C3FE3C008D96B1 /* Caudex-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caudex-Regular.ttf"; sourceTree = "<group>"; };
+		2C0BD3F723C3FE3C008D96B1 /* Caudex-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caudex-BoldItalic.ttf"; sourceTree = "<group>"; };
 		2CACC37B23C3AA660091B6BE /* Creams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Creams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CACC37E23C3AA660091B6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CACC38023C3AA660091B6BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CACC38223C3AA660091B6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CACC38523C3AA660091B6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CACC38723C3AA680091B6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CACC38A23C3AA680091B6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CACC38C23C3AA680091B6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CACC39A23C3B5F60091B6BE /* Titillium_Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Titillium_Web; sourceTree = "<group>"; };
+		2CACC39C23C3B7B70091B6BE /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Poppins; sourceTree = "<group>"; };
+		2CACC3A023C3C1900091B6BE /* HexCodes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HexCodes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CACC3A323C3D6240091B6BE /* Play-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Regular.ttf"; sourceTree = "<group>"; };
+		2CACC3A423C3D6250091B6BE /* Play-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +71,79 @@
 		2CACC37D23C3AA660091B6BE /* Creams */ = {
 			isa = PBXGroup;
 			children = (
-				2CACC37E23C3AA660091B6BE /* AppDelegate.swift */,
-				2CACC38023C3AA660091B6BE /* SceneDelegate.swift */,
-				2CACC38223C3AA660091B6BE /* ViewController.swift */,
-				2CACC38423C3AA660091B6BE /* Main.storyboard */,
-				2CACC38723C3AA680091B6BE /* Assets.xcassets */,
-				2CACC38923C3AA680091B6BE /* LaunchScreen.storyboard */,
+				2CACC39623C3AFB10091B6BE /* Models */,
+				2CACC39523C3AF9F0091B6BE /* Views */,
+				2CACC39223C3AF690091B6BE /* Controllers */,
+				2CACC39423C3AF870091B6BE /* Resources */,
 				2CACC38C23C3AA680091B6BE /* Info.plist */,
 			);
 			path = Creams;
+			sourceTree = "<group>";
+		};
+		2CACC39223C3AF690091B6BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CACC39823C3AFD60091B6BE /* Model Controllers */,
+				2CACC39723C3AFC70091B6BE /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CACC39423C3AF870091B6BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CACC39923C3B55E0091B6BE /* Fonts */,
+				2CACC37E23C3AA660091B6BE /* AppDelegate.swift */,
+				2CACC38023C3AA660091B6BE /* SceneDelegate.swift */,
+				2CACC38723C3AA680091B6BE /* Assets.xcassets */,
+				2CACC3A023C3C1900091B6BE /* HexCodes.playground */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CACC39523C3AF9F0091B6BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CACC38423C3AA660091B6BE /* Main.storyboard */,
+				2CACC38923C3AA680091B6BE /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CACC39623C3AFB10091B6BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CACC39723C3AFC70091B6BE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2CACC39823C3AFD60091B6BE /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		2CACC39923C3B55E0091B6BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2CACC3A323C3D6240091B6BE /* Play-Regular.ttf */,
+				2CACC3A423C3D6250091B6BE /* Play-Bold.ttf */,
+				2C0BD3F423C3FE3B008D96B1 /* Caudex-Bold.ttf */,
+				2C0BD3F723C3FE3C008D96B1 /* Caudex-BoldItalic.ttf */,
+				2C0BD3F523C3FE3C008D96B1 /* Caudex-Italic.ttf */,
+				2C0BD3F623C3FE3C008D96B1 /* Caudex-Regular.ttf */,
+				2CACC39C23C3B7B70091B6BE /* Poppins */,
+				2CACC39A23C3B5F60091B6BE /* Titillium_Web */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +204,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CACC39D23C3B7B70091B6BE /* Poppins in Resources */,
+				2C0BD3F923C3FE4D008D96B1 /* Caudex-BoldItalic.ttf in Resources */,
 				2CACC38B23C3AA680091B6BE /* LaunchScreen.storyboard in Resources */,
+				2C0BD3FB23C3FE54008D96B1 /* Caudex-Regular.ttf in Resources */,
 				2CACC38823C3AA680091B6BE /* Assets.xcassets in Resources */,
+				2C0BD3F823C3FE48008D96B1 /* Caudex-Bold.ttf in Resources */,
+				2CACC3A523C3D64F0091B6BE /* Play-Bold.ttf in Resources */,
 				2CACC38623C3AA660091B6BE /* Main.storyboard in Resources */,
+				2CACC3A623C3D6530091B6BE /* Play-Regular.ttf in Resources */,
+				2C0BD3FA23C3FE50008D96B1 /* Caudex-Italic.ttf in Resources */,
+				2CACC39B23C3B5F60091B6BE /* Titillium_Web in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +225,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CACC38323C3AA660091B6BE /* ViewController.swift in Sources */,
 				2CACC37F23C3AA660091B6BE /* AppDelegate.swift in Sources */,
 				2CACC38123C3AA660091B6BE /* SceneDelegate.swift in Sources */,
 			);
