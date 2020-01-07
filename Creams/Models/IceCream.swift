@@ -10,11 +10,12 @@ import Foundation
 
 struct IceCream {
     let name: String
-    let flavour: Flavour
-    let topping: Topping
+    let tagName: String
+    let rating: Double
+    let topping: Topping? = nil
     
     var price: Double {
-        let price = flavour.price + topping.price
+        let price = 1.50 + (topping?.price ?? 0.0)
         return price
     }
 }
