@@ -12,9 +12,11 @@ struct IceCream {
     let name: String
     let tagName: String
     let rating: Double
-    let backgroundColor: String
-    let labelColor: String
+    let backgroundColor: UIColor
+    let labelColor: UIColor
+    let complimentaryColor: UIColor
     let topping: Topping? = nil
+    let reasonToBuy: String
     
     var price: Double {
         let price = 1.50 + (topping?.price ?? 0.0)

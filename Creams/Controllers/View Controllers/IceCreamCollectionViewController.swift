@@ -12,24 +12,16 @@ class IceCreamCollectionViewController: UICollectionViewController {
     
     let iceCreamController = IceCreamController()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-
-    }
-
-    /*
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "IceCreamDetailShowSegue" {
+            if let destinationVC = segue.destination as? IceCreamDetailViewController,
+                let indexPath = collectionView.indexPathsForSelectedItems?.first?.item {
+                destinationVC.iceCream = iceCreamController.flavours[indexPath]
+            }
+        }
     }
-    */
 
     // MARK: UICollectionViewDataSource
 
@@ -42,6 +34,7 @@ class IceCreamCollectionViewController: UICollectionViewController {
     
         let flavour = iceCreamController.flavours[indexPath.item]
         cell.iceCream = flavour
+        cell.backgroundColor = flavour.backgroundColor
     
         return cell
     }

@@ -10,6 +10,6 @@ import Foundation
 
 struct Topping {
     let name: String
-    let price: Double
-    var hasBeenAdded: Bool
+    let price: Double = 0.50
+    var hasBeenAdded: Bool = false
 }
