@@ -9,7 +9,7 @@
 import UIKit
 
 class IceCreamDetailViewController: UIViewController {
-
+    
     @IBOutlet weak var iceCreamImage: UIImageView!
     @IBOutlet weak var tagLabel: UILabel!
     @IBOutlet weak var flavourLabel: UILabel!
@@ -50,15 +50,17 @@ class IceCreamDetailViewController: UIViewController {
     }
     
     
-
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "ToppingsShowSegue" {
+            if let destinationVC = segue.destination as? ToppingsCollectionViewController,
+                let iceCream = iceCream {
+                destinationVC.collectionView.backgroundColor = iceCream.backgroundColor
+            }
+        } else if segue.identifier == "OrderShowSegue" {
+            
+        }
     }
-    */
-
 }

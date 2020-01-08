@@ -8,13 +8,16 @@
 
 import Foundation
 
-var toppings = [Topping(name: "Chocolate Chips"),
-                Topping(name: "Oreo Bits"),
-                Topping(name: "Peanut Butter"),
-                Topping(name: "Caramel Bits"),
-                Topping(name: "Brownie Bits"),
-                Topping(name: "Chocolate Flakes"),
-                Topping(name: "M&Ms"),
-                Topping(name: "Whipped Cream"),
-                Topping(name: "Chocolate Syrup"),
-                Topping(name: "Caramel Syrup")]
+class ToppingController {
+    
+    var toppings = [Topping(name: "Chocolate Chips"),
+                    Topping(name: "Oreo Bits"),
+                    Topping(name: "Peanut Butter"),
+                    Topping(name: "Caramel Bits"),
+                    Topping(name: "Brownie Bits"),
+                    Topping(name: "Chocolate Flakes"),
+                    Topping(name: "M&Ms"),
+                    Topping(name: "Whipped Cream"),
+                    Topping(name: "Chocolate Syrup"),
+                    Topping(name: "Caramel Syrup")]
+}
