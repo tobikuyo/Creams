@@ -58,6 +58,7 @@ class IceCreamDetailViewController: UIViewController {
             if let destinationVC = segue.destination as? ToppingsCollectionViewController,
                 let iceCream = iceCream {
                 destinationVC.collectionView.backgroundColor = iceCream.backgroundColor
+                destinationVC.iceCream = iceCream
             }
         } else if segue.identifier == "OrderShowSegue" {
             

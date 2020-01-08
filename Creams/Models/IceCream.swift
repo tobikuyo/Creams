@@ -15,7 +15,7 @@ struct IceCream {
     let backgroundColor: UIColor
     let labelColor: UIColor
     let complimentaryColor: UIColor
-    let topping: Topping? = nil
+    var topping: Topping? = nil
     let reasonToBuy: String
     
     var price: Double {
