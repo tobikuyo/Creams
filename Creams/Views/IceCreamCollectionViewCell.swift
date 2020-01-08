@@ -13,7 +13,8 @@ class IceCreamCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var tagLabel: UILabel!
     @IBOutlet weak var flavourLabel: UILabel!
     @IBOutlet weak var iceCreamImage: UIImageView!
-    @IBOutlet weak var background: UIView!
+    @IBOutlet weak var backgroundImage: UIImageView!
+    
     
     var iceCream: IceCream? {
         didSet {
@@ -26,7 +27,7 @@ class IceCreamCollectionViewCell: UICollectionViewCell {
             tagLabel.text = iceCream.tagName
             flavourLabel.text = iceCream.name
             iceCreamImage.image = UIImage(named: iceCream.name.lowercased())
-            background.backgroundColor = UIColor(red: 207, green: 200, blue: 174, alpha: 1)
+            backgroundImage.image = UIImage(named: "\(iceCream.name.lowercased())Background")
             tagLabel.textColor = UIColor(hex: iceCream.labelColor)
         }
     }
