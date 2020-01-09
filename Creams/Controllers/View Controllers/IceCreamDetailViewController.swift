@@ -19,6 +19,7 @@ class IceCreamDetailViewController: UIViewController {
     @IBOutlet weak var addFlavourButton: UIButton!
     @IBOutlet weak var buyNowButton: UIButton!
     @IBOutlet weak var scrollView: UIView!
+    @IBOutlet var collectionOfLabels: [UILabel]!
     
     var iceCream: IceCream?
     
@@ -33,13 +34,17 @@ class IceCreamDetailViewController: UIViewController {
             tagLabel.text = iceCream.tagName
             tagLabel.textColor = iceCream.labelColor
             flavourLabel.text = iceCream.name
-            ratingLabel.text = String(iceCream.rating)
+            ratingLabel.text = "\(iceCream.rating) Rating"
             textView.text = iceCream.reasonToBuy
             addFlavourButton.backgroundColor = iceCream.complimentaryColor
             buyNowButton.backgroundColor = iceCream.complimentaryColor
             view.backgroundColor = iceCream.backgroundColor
             scrollView.backgroundColor = iceCream.backgroundColor
             textView.backgroundColor = iceCream.backgroundColor
+            
+            for label in collectionOfLabels {
+                label.textColor = UIColor.black
+            }
         }
     }
     

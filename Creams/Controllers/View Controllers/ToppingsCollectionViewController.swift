@@ -66,7 +66,6 @@ class ToppingsCollectionViewController: UICollectionViewController {
         previouslySelectedItem = indexPath.item
         
         placeOrderButton.isEnabled = true
-        
         collectionView.reloadData()
         return true
     }

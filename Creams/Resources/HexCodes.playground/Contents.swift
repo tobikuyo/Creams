@@ -3,7 +3,7 @@ import UIKit
 // Mint Flavour
 
 // Background Color = #70A338
-// Label Color = #577F2D
+// Label Color = #3B551D
 
 
 // Strawberry Flavour
@@ -14,17 +14,17 @@ import UIKit
 // Vanilla Flavour
 
 // Background Color = #CFC8AE
-// Label Color = #7F7B6B
+// Label Color = #807C6D
 
 // Chocolate Flavour
 
 // Background Color = #7F6252
-// Label Color = #3C2E27
+// Label Color = #BD937B
 
 // Banana Flavour
 
 // Background Color = #F4C349
-// Label Color = #7F6C23
+// Label Color = #7F6627
 
 // Caramel Flavour
 
