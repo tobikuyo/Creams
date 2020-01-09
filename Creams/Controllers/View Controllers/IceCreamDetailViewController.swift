@@ -39,17 +39,9 @@ class IceCreamDetailViewController: UIViewController {
             buyNowButton.backgroundColor = iceCream.complimentaryColor
             view.backgroundColor = iceCream.backgroundColor
             scrollView.backgroundColor = iceCream.backgroundColor
+            textView.backgroundColor = iceCream.backgroundColor
         }
     }
-    
-    
-    @IBAction func addFlavourTapped(_ sender: Any) {
-    }
-    
-    @IBAction func buyNowTapped(_ sender: Any) {
-    }
-    
-    
     
     // MARK: - Navigation
     
@@ -60,8 +52,16 @@ class IceCreamDetailViewController: UIViewController {
                 destinationVC.collectionView.backgroundColor = iceCream.backgroundColor
                 destinationVC.iceCream = iceCream
             }
-        } else if segue.identifier == "OrderShowSegue" {
+        }
             
+        else if segue.identifier == "OrderShowSegue" {
+            if let destinationVC = segue.destination as? OrderViewController,
+                let iceCream = iceCream {
+                destinationVC.iceCream = iceCream
+            } else if let destinationVC = segue.destination as? OrderWithToppingViewController,
+                let iceCream = iceCream {
+                destinationVC.iceCream = iceCream
+            }
         }
     }
 }

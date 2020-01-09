@@ -28,6 +28,7 @@ class OrderWithToppingViewController: UIViewController {
     func updateViews() {
         if let iceCream = iceCream,
             let topping = topping {
+            view.backgroundColor = iceCream.backgroundColor
             iceCreamImage.image = UIImage(named: iceCream.name.lowercased())
             tagLabel.text = iceCream.tagName
             tagLabel.textColor = iceCream.labelColor
@@ -38,9 +39,8 @@ class OrderWithToppingViewController: UIViewController {
         }
     }
     
-    
     @IBAction func payButtonTapped(_ sender: Any) {
-        let alert = UIAlertController(title: "Payment was successfull", message: "Your order will be ready in 3 minutes", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Payment was successful", message: "Your ice cream will be ready in 3 minutes", preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         
         alert.addAction(action)

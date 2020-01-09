@@ -15,6 +15,8 @@ class ToppingsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var addedButton: UIImageView!
     @IBOutlet weak var priceLabel: UILabel!
     
+    var toppingsCount = 0
+    var toppings: ToppingController?
     var topping: Topping? {
         didSet {
             updateViews()

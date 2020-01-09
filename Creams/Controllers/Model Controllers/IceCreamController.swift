@@ -10,7 +10,7 @@ import UIKit
 
 class IceCreamController {
     
-    var flavours = [
+    var flavours: [IceCream] = [
         
         // MARK: Vanilla
         IceCream(name: "Vanilla", tagName: "classic", rating: 4.3, backgroundColor: UIColor(red: 207/255, green: 200/255, blue: 174/255, alpha: CGFloat(1)), labelColor: UIColor(red: 38/255, green: 54/255, blue: 19/255, alpha: CGFloat(1)), complimentaryColor: UIColor(red: 174/255, green: 181/255, blue: 207/255, alpha: CGFloat(1)), reasonToBuy: "Calcium is a key ingredient in ice cream and calcium-rich foods help keep your body strong and metabolism running well. A.K.A. eating ice cream = weight-loss diet. We would choose eating ice cream over running on the treadmill any day of the week!"),

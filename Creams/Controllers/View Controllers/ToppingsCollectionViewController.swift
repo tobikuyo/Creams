@@ -10,11 +10,19 @@ import UIKit
 
 class ToppingsCollectionViewController: UICollectionViewController {
     
+    @IBOutlet weak var placeOrderButton: UIBarButtonItem!
+    
     let toppingController = ToppingController()
     
     var iceCream: IceCream?
-    // MARK: - Navigation
     
+    var previouslySelectedItem: Int?
+    
+    override func viewDidLoad() {
+        placeOrderButton.isEnabled = false
+    }
+    
+    // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "OrderWithToppingShowSegue" {
@@ -49,6 +57,16 @@ class ToppingsCollectionViewController: UICollectionViewController {
         var topping = toppingController.toppings[indexPath.item]
         topping.hasBeenAdded.toggle()
         toppingController.toppings[indexPath.item] = topping
+        iceCream?.topping = topping
+        
+        if let previouslySelectedItem = previouslySelectedItem {
+            toppingController.toppings[previouslySelectedItem].hasBeenAdded.toggle()
+        }
+        
+        previouslySelectedItem = indexPath.item
+        
+        placeOrderButton.isEnabled = true
+        
         collectionView.reloadData()
         return true
     }
