@@ -32,7 +32,6 @@
 		2CACC38623C3AA660091B6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC38423C3AA660091B6BE /* Main.storyboard */; };
 		2CACC38823C3AA680091B6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC38723C3AA680091B6BE /* Assets.xcassets */; };
 		2CACC38B23C3AA680091B6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC38923C3AA680091B6BE /* LaunchScreen.storyboard */; };
-		2CACC39B23C3B5F60091B6BE /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC39A23C3B5F60091B6BE /* Titillium_Web */; };
 		2CACC3A523C3D64F0091B6BE /* Play-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC3A423C3D6250091B6BE /* Play-Bold.ttf */; };
 		2CACC3A623C3D6530091B6BE /* Play-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC3A323C3D6240091B6BE /* Play-Regular.ttf */; };
 /* End PBXBuildFile section */
@@ -65,7 +64,6 @@
 		2CACC38723C3AA680091B6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CACC38A23C3AA680091B6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CACC38C23C3AA680091B6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CACC39A23C3B5F60091B6BE /* Titillium_Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Titillium_Web; sourceTree = "<group>"; };
 		2CACC3A023C3C1900091B6BE /* HexCodes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HexCodes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CACC3A323C3D6240091B6BE /* Play-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Regular.ttf"; sourceTree = "<group>"; };
 		2CACC3A423C3D6250091B6BE /* Play-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Bold.ttf"; sourceTree = "<group>"; };
@@ -186,7 +184,6 @@
 				2C83636D23C7CED700C01062 /* Teko-Medium.ttf */,
 				2C83636C23C7CED700C01062 /* Teko-Regular.ttf */,
 				2C83636F23C7CED700C01062 /* Teko-SemiBold.ttf */,
-				2CACC39A23C3B5F60091B6BE /* Titillium_Web */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -263,7 +260,6 @@
 				2C83637223C7CED800C01062 /* Teko-Medium.ttf in Resources */,
 				2C0BD3FA23C3FE50008D96B1 /* Caudex-Italic.ttf in Resources */,
 				2C83637123C7CED800C01062 /* Teko-Regular.ttf in Resources */,
-				2CACC39B23C3B5F60091B6BE /* Titillium_Web in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
