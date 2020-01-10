@@ -27,6 +27,7 @@
 		2C83637323C7CED800C01062 /* Teko-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C83636E23C7CED700C01062 /* Teko-Bold.ttf */; };
 		2C83637423C7CED800C01062 /* Teko-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C83636F23C7CED700C01062 /* Teko-SemiBold.ttf */; };
 		2C83637523C7CED800C01062 /* Teko-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C83637023C7CED700C01062 /* Teko-Light.ttf */; };
+		2C83637F23C8C69E00C01062 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83637E23C8C69E00C01062 /* ThankYouViewController.swift */; };
 		2CACC37F23C3AA660091B6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CACC37E23C3AA660091B6BE /* AppDelegate.swift */; };
 		2CACC38123C3AA660091B6BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CACC38023C3AA660091B6BE /* SceneDelegate.swift */; };
 		2CACC38623C3AA660091B6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CACC38423C3AA660091B6BE /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		2C83636E23C7CED700C01062 /* Teko-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-Bold.ttf"; sourceTree = "<group>"; };
 		2C83636F23C7CED700C01062 /* Teko-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-SemiBold.ttf"; sourceTree = "<group>"; };
 		2C83637023C7CED700C01062 /* Teko-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-Light.ttf"; sourceTree = "<group>"; };
+		2C83637E23C8C69E00C01062 /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
 		2CACC37B23C3AA660091B6BE /* Creams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Creams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CACC37E23C3AA660091B6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CACC38023C3AA660091B6BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				2C4FBD0623C520FE00639FDD /* ToppingsCollectionViewController.swift */,
 				2C4FBD0823C5212E00639FDD /* OrderWithToppingViewController.swift */,
 				2C4FBD0A23C5216400639FDD /* OrderViewController.swift */,
+				2C83637E23C8C69E00C01062 /* ThankYouViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				2C4FBD0123C5209C00639FDD /* IceCreamDetailViewController.swift in Sources */,
 				2CACC37F23C3AA660091B6BE /* AppDelegate.swift in Sources */,
 				2C4FBD0B23C5216400639FDD /* OrderViewController.swift in Sources */,
+				2C83637F23C8C69E00C01062 /* ThankYouViewController.swift in Sources */,
 				2C4FBCFD23C5196200639FDD /* IceCreamController.swift in Sources */,
 				2C4FBD0923C5212E00639FDD /* OrderWithToppingViewController.swift in Sources */,
 				2C4FBD0723C520FE00639FDD /* ToppingsCollectionViewController.swift in Sources */,

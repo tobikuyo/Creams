@@ -11,6 +11,8 @@ import UIKit
 class IceCreamCollectionViewController: UICollectionViewController {
     
     let iceCreamController = IceCreamController()
+    
+    @IBAction func unwindToIceCreamCV(_ unwindSegue: UIStoryboardSegue) { }
 
     // MARK: - Navigation
 
