@@ -36,6 +36,7 @@ class OrderWithToppingViewController: UIViewController {
             toppingImage.image = UIImage(named: topping.name.lowercased())
             toppingLabel.text = topping.name
             payButton.setTitle("PAY £\(String(format: "%.2f", iceCream.price))", for: .normal)
+            payButton.backgroundColor = iceCream.complimentaryColor
         }
     }
     

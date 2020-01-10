@@ -30,6 +30,7 @@ class OrderViewController: UIViewController {
             tagLabel.textColor = iceCream.labelColor
             flavourLabel.text = iceCream.name
             payButton.setTitle("PAY £\(String(format: "%.2f", iceCream.price))", for: .normal)
+            payButton.backgroundColor = iceCream.complimentaryColor
         }
     }
     

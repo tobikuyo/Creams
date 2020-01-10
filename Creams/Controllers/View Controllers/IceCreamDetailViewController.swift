@@ -35,7 +35,7 @@ class IceCreamDetailViewController: UIViewController {
             tagLabel.textColor = iceCream.labelColor
             flavourLabel.text = iceCream.name
             ratingLabel.text = "\(iceCream.rating) Rating"
-            textView.text = iceCream.reasonToBuy
+            textView.text = iceCream.funFact
             addFlavourButton.backgroundColor = iceCream.complimentaryColor
             buyNowButton.backgroundColor = iceCream.complimentaryColor
             view.backgroundColor = iceCream.backgroundColor
