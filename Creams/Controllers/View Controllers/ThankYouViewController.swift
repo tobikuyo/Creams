@@ -13,5 +13,4 @@ class ThankYouViewController: UIViewController {
     @IBAction func doneButtonTapped(_ sender: Any) {
         performSegue(withIdentifier: "unwindSegueToIceCreamCV", sender: self)
     }
-    
 }
