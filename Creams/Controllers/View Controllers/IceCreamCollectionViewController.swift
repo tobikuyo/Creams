@@ -34,7 +34,6 @@ class IceCreamCollectionViewController: UICollectionViewController {
     
         let flavour = iceCreamController.flavours[indexPath.item]
         cell.iceCream = flavour
-        cell.backgroundColor = flavour.backgroundColor
     
         return cell
     }

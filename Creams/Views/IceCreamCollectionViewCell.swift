@@ -8,17 +8,11 @@
 
 import UIKit
 
-protocol FlavourChoiceDelegate {
-    func iceCream(choice: IceCream)
-}
-
 class IceCreamCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var tagLabel: UILabel!
     @IBOutlet weak var flavourLabel: UILabel!
     @IBOutlet weak var iceCreamImage: UIImageView!
-    
-    var delegate: FlavourChoiceDelegate?
     
     var iceCream: IceCream? {
         didSet {
@@ -28,11 +22,11 @@ class IceCreamCollectionViewCell: UICollectionViewCell {
     
     func updateViews() {
         if let iceCream = iceCream {
+            self.backgroundColor = iceCream.backgroundColor
             tagLabel.text = iceCream.tagName
             flavourLabel.text = iceCream.name
             iceCreamImage.image = UIImage(named: iceCream.name.lowercased())
             tagLabel.textColor = iceCream.labelColor
-            delegate?.iceCream(choice: iceCream)
         }
     }
 }

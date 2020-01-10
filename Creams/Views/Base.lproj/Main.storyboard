@@ -108,7 +108,9 @@
                             <outlet property="delegate" destination="AY6-VH-NkT" id="WtV-Ue-8RY"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="CHOOSE YOUR TASTE" largeTitleDisplayMode="always" id="nJ1-5V-KeF"/>
+                    <navigationItem key="navigationItem" title="CHOOSE YOUR TASTE" largeTitleDisplayMode="always" id="nJ1-5V-KeF">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="n8q-3f-zAN"/>
+                    </navigationItem>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="elU-81-Ydp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -217,7 +219,6 @@
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Play" family="Play" pointSize="21"/>
-                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <fontDescription key="fontDescription" name="Play" family="Play" pointSize="25"/>
@@ -470,7 +471,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wWw-IB-QA2"/>
                     </view>
-                    <navigationItem key="navigationItem" id="x62-UR-tU9"/>
+                    <navigationItem key="navigationItem" id="x62-UR-tU9">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="iB2-qT-Gt9"/>
+                    </navigationItem>
                     <size key="freeformSize" width="414" height="1300"/>
                     <connections>
                         <outlet property="addFlavourButton" destination="K8G-yL-iWJ" id="Ibu-gH-Hz9"/>
@@ -558,6 +561,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="payButtonTapped:" destination="kXX-Mq-CjN" eventType="touchUpInside" id="4Mf-aS-7aZ"/>
+                                    <segue destination="ZHk-Rt-VsQ" kind="show" identifier="ThankYouShowSegue" id="urC-Cq-Pvo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="refreshing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jin-V6-D4A">
@@ -604,6 +608,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LcZ-sw-vJj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5184" y="-337"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kyb-D9-7si">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgi-yD-bjH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="ZHk-Rt-VsQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LpS-UK-Mcy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="n7a-YT-faX">
+                                <rect key="frame" x="55" y="301" width="304" height="294.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-MZ-Xh4">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="74.666666666666671"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Enjoy your ice cream. Thanks for visiting Creams">
+                                                <attributes>
+                                                    <font key="NSFont" size="25" name="Caudex-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="summer" translatesAutoresizingMaskIntoConstraints="NO" id="WVp-gR-5ti">
+                                        <rect key="frame" x="66.666666666666671" y="123.66666666666667" width="170.66666666666663" height="170.66666666666663"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n7a-YT-faX" firstAttribute="centerX" secondItem="LpS-UK-Mcy" secondAttribute="centerX" id="8UT-wR-r21"/>
+                            <constraint firstItem="n7a-YT-faX" firstAttribute="centerY" secondItem="LpS-UK-Mcy" secondAttribute="centerY" id="og6-A1-wOD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xbi-gN-mPW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ljd-pI-oec"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5183" y="692"/>
         </scene>
         <!--Order View Controller-->
         <scene sceneID="9Nm-ni-ru2">
@@ -655,6 +701,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="payButtonTapped:" destination="bqx-vQ-fHt" eventType="touchUpInside" id="M5V-AT-Qrq"/>
+                                    <segue destination="ZHk-Rt-VsQ" kind="show" identifier="ThankYouTooShowSegue" id="xI9-Bv-kHo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="refreshing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWG-rR-1BY">
@@ -32166,5 +32213,9 @@ ABzK7A
         <image name="mint" width="143.33332824707031" height="233"/>
         <image name="plusPurple" width="256" height="256"/>
         <image name="stopwatch" width="170.66667175292969" height="170.66667175292969"/>
+        <image name="summer" width="170.66667175292969" height="170.66667175292969"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xI9-Bv-kHo"/>
+    </inferredMetricsTieBreakers>
 </document>

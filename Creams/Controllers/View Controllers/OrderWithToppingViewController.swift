@@ -42,27 +42,12 @@ class OrderWithToppingViewController: UIViewController {
     
     @IBAction func payButtonTapped(_ sender: Any) {
         let alert = UIAlertController(title: "Payment was successful", message: "Your ice cream will be ready in 3 minutes", preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let action = UIAlertAction(title: "OK", style: .cancel) { (action) in
+            self.performSegue(withIdentifier: "ThankYouShowSegue", sender: self)
+        }
         
         alert.addAction(action)
+        
         present(alert, animated: true, completion: nil)
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
-
-extension OrderWithToppingViewController: FlavourChoiceDelegate {
-    func iceCream(choice: IceCream) {
-        iceCream = choice
     }
 }

@@ -36,7 +36,9 @@ class OrderViewController: UIViewController {
     
     @IBAction func payButtonTapped(_ sender: Any) {
         let alert = UIAlertController(title: "Payment was successful", message: "Your ice cream will be ready in 3 minutes", preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let action = UIAlertAction(title: "OK", style: .cancel) { (action) in
+            self.performSegue(withIdentifier: "ThankYouTooShowSegue", sender: self)
+        }
         
         alert.addAction(action)
         present(alert, animated: true, completion: nil)

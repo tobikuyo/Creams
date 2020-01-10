@@ -63,7 +63,9 @@ class IceCreamDetailViewController: UIViewController {
             if let destinationVC = segue.destination as? OrderViewController,
                 let iceCream = iceCream {
                 destinationVC.iceCream = iceCream
-            } else if let destinationVC = segue.destination as? OrderWithToppingViewController,
+            }
+            
+            else if let destinationVC = segue.destination as? OrderWithToppingViewController,
                 let iceCream = iceCream {
                 destinationVC.iceCream = iceCream
             }
